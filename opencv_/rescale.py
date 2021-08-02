@@ -7,7 +7,7 @@ path = os.path.join(Dir, 'source')
 images = os.listdir(path)
 
 
-def rescale(frame, scale=0.50):
+def rescale(frame, scale=0.20):
     w = int(frame.shape[1] * scale)
     h = int(frame.shape[0] * scale)
     dim = (w, h)
